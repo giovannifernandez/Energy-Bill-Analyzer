@@ -8,7 +8,7 @@ Chatbot designed to help individuals make more informed decisions about their en
 The Energy Bill Analyzer integrates optical character recognition (OCR) and natural language processing (NLP) to analyze utility bills effectively. By leveraging Python-tesseract for OCR and OpenAI's GPT-4 for NLP, the chatbot transforms data from utility bills into personalized advice.
 
 # Why use Energy Bill Analyzer?
-This project was created to help users understand their energy consumption habits and find effective ways to lower their energy costs. By using this chatbot, users can make it easier for everyday users to manage their energy usage and reduce their expenses.
+This project was created to help users understand their energy consumption habits and find effective ways to lower their energy costs. By using this chatbot, users can make it easier to manage their energy usage and reduce their expenses.
 
 # Contribution & Purpose
 I played a crucial role as a key developer in coding and integrating multiple AI technologies into the Energy Bill Analyzer. My contributions ensured the chatbot performed its primary functions correctly while remaining user-friendly and effective in delivering tailored advice. The solution addresses significant social issues, such as greater energy efficiency and reduced environmental impact, making it a great tool for sustainable living.
