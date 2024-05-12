@@ -1,4 +1,4 @@
-# Energy-Bill-Analyzer
+# Energy Bill Analyzer
 ![DemoVideo-ezgif com-video-to-gif-converter](https://github.com/giovannifernandez/Energy-Bill-Analyzer/assets/123608591/f8c15030-b888-4354-8c13-4b7248d9fd01)
 
 # Overview
