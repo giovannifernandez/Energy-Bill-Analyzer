@@ -79,13 +79,11 @@ def process_pdf(uploaded_file):
         text += extract_text_from_page(page)
     return text
 
-# Converts a PDF page to an image and uses OCR to extract text from the image
 def extract_text_from_page(page):
     pix = page.get_pixmap()
     img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
     return pytesseract.image_to_string(img)
 
-# Sets up a form for users to submit document for analysis and displays the results
 def display_results(extracted_text):
     prompt = "You are a virtual assistant specialized in energy savings. After analyzing the details of the provided utility bill, summarize the key points and offer specific, actionable advice that could help reduce energy costs. Emphasize clear organization of information and ensure the complete omission of private data for security and privacy. Focus on areas where changes can have the most impact according to usage patterns and data from the bill. Handle all data with the utmost security, comply with privacy regulations, and redact all sensitive information, including account numbers and personal identifiers, to ensure confidentiality is maintained."
     with st.form("search_file_query_form"):
@@ -122,8 +120,8 @@ def play_audio(text):
         try:
             response = client.audio.speech.create(model="tts-1", voice="nova", input=text)
             st.session_state.audio_content = response.content
-            st.session_state.audio_ready = True  # Set the flag to show follow-up questions
-            st.session_state.last_advice_text = text  # Track the last text that was converted to audio
+            st.session_state.audio_ready = True
+            st.session_state.last_advice_text = text
         except Exception as e:
             st.session_state.audio_ready = False
             return "Failed to generate audio: " + str(e)
