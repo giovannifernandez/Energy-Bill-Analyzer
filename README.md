@@ -10,7 +10,7 @@ The Energy Bill Analyzer integrates optical character recognition (OCR) and natu
 # Why Energy Bill Analyzer?
 This project was created to help users understand their energy consumption habits and find effective ways to lower their energy costs. By using this chatbot, users can make it easier for everyday users to manage their energy usage and reduce their expenses.
 
-# Solution
+# Contribution & Purpose
 I played a crucial role as a key developer in coding and integrating multiple AI technologies into the Energy Bill Analyzer. My contributions ensured the chatbot performed its primary functions correctly while remaining user-friendly and effective in delivering tailored advice. The solution addresses significant social issues, such as greater energy efficiency and reduced environmental impact, making it a great tool for sustainable living.
 
 # Demo Video
