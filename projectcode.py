@@ -1,3 +1,5 @@
+# Note: Sections of code that fall between the comments "BEGIN: Code by Giovanni Fernandez" and "END: Code by Giovanni Fernandez" are what I was directly responsible for.
+
 # BEGIN: Code by Giovanni Fernandez
 import streamlit as st
 from openai import OpenAI
