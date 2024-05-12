@@ -4,7 +4,7 @@
 # Overview
 Chatbot designed to help individuals make more informed decisions about their energy consumption.
 
-# Energy Bill Analyzer: What is it?
+# What is Energy Bill Analyzer?
 The Energy Bill Analyzer integrates optical character recognition (OCR) and natural language processing (NLP) to analyze utility bills effectively. By leveraging Python-tesseract for OCR and OpenAI's GPT-4 for NLP, the chatbot transforms data from utility bills into personalized advice.
 
 # Why Energy Bill Analyzer?
